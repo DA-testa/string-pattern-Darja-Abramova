@@ -41,10 +41,10 @@ def get_occurrences(pattern, text):
     output=[]
     
     for i in range(b_text-a_pat+1):
-        if b_text ==a_pat1 and b[i:i+a_pat]==a:
+        if b_text1 ==a_pat1 and b[i:i+a_pat]==a:
             output.append(i)
         if a_pat+i<b_text:
-            b_text=hash(b[i+1: i+a_pat+1])
+            b_text1=hash(b[i+1: i+a_pat+1])
     
     return output
 

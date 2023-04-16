@@ -11,12 +11,12 @@ def read_input():
     # return both lines in one return
     
     # this is the sample return, notice the rstrip function
-    in = input().rstrip()
+    inp = input().rstrip()
     
-    if in =='I':
+    if inp =='I':
         a = input().rstrip()
         b = input().rstrip()
-    elif in=='F':
+    elif inp=='F':
         with open("tests/"+"06", 'r') as file:
             a=file.readline().rstrip()
             b = file.readline().rstrip()
